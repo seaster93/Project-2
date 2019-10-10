@@ -6,11 +6,30 @@ body
     background-color: navy;
     text-align: center;
 }
-nav
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: black;
-    text-align: center;
+#nav-bar {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+#nav-bar li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#nav-bar a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+#nav-bar a:hover {
+	background-color:#009;
+	color:#fff;
 }
 h1
 {
