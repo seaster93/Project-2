@@ -17,6 +17,7 @@ body
 	float:left;
 	margin-left:2px;
 	border:1px solid #000;
+	text-align: center;
 }
 
 #nav-bar a {
@@ -25,6 +26,7 @@ body
 	text-decoration:none;
 	background-color:#fff;
 	color:#009;
+	text-align: center;
 }
 
 #nav-bar a:hover {
