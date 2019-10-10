@@ -4,7 +4,7 @@ body
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: red;
     background-color: navy;
-    align-self: center;
+    text-align: center;
 }
 nav
 {
@@ -50,10 +50,15 @@ li
 }
 img
 {
+    img.center {
+    display: block;
+    margin: 0 auto;
+}
     max-width: 400px;
     max-height: 350px;
     width: 325px;
     height: 320px;
+  
 }
 iframe
 {
