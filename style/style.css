@@ -7,32 +7,23 @@ body
     text-align: center;
 }
 //using template for nav-bar
-#nav-bar {
-	margin:10px;
-	width:900px;
-	font-family: sans-serif;
+nav
+{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-#nav-bar li {
-	display:block;
-	width:120px;
-	float:left;
-	border:1px solid #000;
-	width: 400px;
-        margin: 0 auto;
-	float:40%
+nav li
+{
+    display:inline;
 }
-
-#nav-bar a {
-	display:block;
-	padding:3px;
-	text-decoration:none;
-	background-color:#fff;
-	color:#009;
-}
-
-#nav-bar a:hover {
-	background-color:#009;
-	color:#fff;
+nav a
+{
+    display:inline-block;
+    padding:10px;
 }
 h1
 {
