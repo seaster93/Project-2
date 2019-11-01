@@ -67,8 +67,8 @@ li
 }
 img
 {
-    border:1px solid #ccc;
-    border-width:1px 0;
+    border:20px solid #ccc;
+    border-width:20px;
     display: block;
     margin: 0 auto;
 }
