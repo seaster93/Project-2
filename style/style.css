@@ -67,10 +67,11 @@ li
 }
 img
 {
-    border:15px solid #ccc;
-    border-width:15px;
-    height: 150px;
-    width: 150px;
+    border:20px solid #ccc;
+    border-width:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
   
