@@ -4,7 +4,10 @@ body
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: red;
     background-color: ivory;
-    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 nav
 {
@@ -22,19 +25,21 @@ nav li
 nav a
 {
     display:inline-block;
-    padding:10px;
+    padding:20px;
 }
 h1
 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: blue;
     text-align: center;
+    font-weight: bold;
 }
 h2
 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: red;
     text-align: center;
+    font-weight: bold;
 }
 h3
 {
@@ -62,9 +67,12 @@ li
 }
 img
 {
-     width: 300px;
-     height: 350px;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    display: block;
+    margin: 0 auto;
 }
+
   
 
 iframe
